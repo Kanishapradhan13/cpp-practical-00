@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "name": "Mac",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/**",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/**"
+      ],
+      "defines": [],
+      "compilerPath": "/Library/Developer/CommandLineTools/usr/bin/clang++",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "macos-clang-arm64",
+      "macFrameworkPath": [
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/System/Library/Frameworks"
+      ],
+      "compilerArgs": [
+        "-isysroot",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk"
+      ]
+    }
+  ],
+  "version": 4
+}
